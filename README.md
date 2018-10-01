@@ -30,5 +30,5 @@ ele=3         | list1[1] = 2
  ### Time Complexity  
    
  ***Best Case*** : O(1)  
- ***Average Case***: O(N/2)  
- ***Worst Case*** :O(N)
+ ***Average Case*** : O(N/2)  
+ ***Worst Case*** : O(N)
