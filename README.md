@@ -3,10 +3,10 @@ This Repo contains solutions to various Algorithms in python
 # SEARCH  
 ## Linear Search  
 
-Let there be a given list called as **list1**. The list contains elements,   
-let them be integer by default.    
+Let there be a iterable list called as **list1**.let them be integer by default.  
+let there be a search element called as **ele**. Let ele be assigned to some value 
 >list1 = [ 1, 2, 3, 4, 5 ]  
->let there be a search element called as **ele**. Let ele be assigned to some value  
+>ele = 3 
  
 ###***Working of linear search***
 
