@@ -8,7 +8,7 @@ let there be a search element called as **ele**. Let ele be assigned to some val
 >list1 = [ 1, 2, 3, 4, 5 ]  
 >ele = 3 
  
-###***Working of linear search***
+***Working of linear search***
 
 Search        | List 
 ------------- | -------------
@@ -28,6 +28,7 @@ ele=3         | list1[1] = 2
     found = [i for i in range(len(data)) if data[i] == ele]
 ```
  ### Time Complexity  
+   
  ***Best Case*** : O(1)  
  ***Average Case***: O(N/2)  
  ***Worst Case*** :O(N)
