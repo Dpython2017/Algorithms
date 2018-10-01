@@ -22,8 +22,11 @@ ele=3         | list1[1] = 2
   
  Ans so on until the value is found. If the value is not present in the list. It displays Value not found in the list.
  
- ###Code:
+ ### Code:
  ```buildoutcfg
     found = [i for i in range(len(data)) if data[i] == ele]
 ```
- 
+ ###Time Complexity  
+ ***BEST CASE*** : O(1)  
+ ***Average Case***: O(N/2)  
+ ***Worst Case*** :O(N)
