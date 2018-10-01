@@ -1,5 +1,5 @@
 # Algorithms
-This Repo contains solutions to various Algorithms in python 
+This Repo contains solutions to various Algorithms in python     
 #SEARCH
 ##Linear Search
 Let there be a given list called as list1. The ist contains elements, let them be integer by default.
