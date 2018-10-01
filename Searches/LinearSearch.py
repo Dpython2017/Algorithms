@@ -9,7 +9,7 @@ class LinearSearch:
     :param data: An itearble list for searching the values in
             ele: The search element
 
-    :return : Position if the element is found
+    :return : Position of the element is found
     """
 
     def __init__(self,data = []):
