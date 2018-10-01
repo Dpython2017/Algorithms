@@ -26,7 +26,7 @@ ele=3         | list1[1] = 2
  ```buildoutcfg
     found = [i for i in range(len(data)) if data[i] == ele]
 ```
- ###Time Complexity  
- ***BEST CASE*** : O(1)  
+ ### Time Complexity  
+ ***Best Case*** : O(1)  
  ***Average Case***: O(N/2)  
  ***Worst Case*** :O(N)
