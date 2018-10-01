@@ -5,7 +5,7 @@ Let there be a given list called as list1. The ist contains elements, let them b
  list1 = [1,2,3,4,5]
  let there be a search element called as ele. Let ele be assigned to some value
  
-###***Working of linear search***
+###***Working of linear search***__
 Search        | List 
 ------------- | -------------
 ele=3         | list1[0] = 1
@@ -16,6 +16,7 @@ ele=3         | list1[0] = 1
 ------------- | -------------
 ele=3         | list1[1] = 2
  ...
+ 
  Ans so on until the value is found. If the value is not present in the list. It displays Value not found in the list.
  
  ###Code:
