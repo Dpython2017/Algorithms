@@ -1,11 +1,11 @@
 # Algorithms
 This Repo contains solutions to various Algorithms in python     
-#SEARCH  
-##Linear Search  
+# SEARCH  
+## Linear Search  
 
-Let there be a given list called as list1. The ist contains elements, let them be integer by default.
- list1 = [1,2,3,4,5]
- let there be a search element called as ele. Let ele be assigned to some value
+Let there be a given list called as list1. The ist contains elements, let them be integer by default.  
+>list1 = [1,2,3,4,5]
+>let there be a search element called as ele. Let ele be assigned to some value  
  
 ###***Working of linear search***
 
