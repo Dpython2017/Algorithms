@@ -42,7 +42,7 @@ Binary Search works on sorted arrays. The sorted array is divided into half and 
  >if data[m] < ele  
  >if data[m] == ele  
  
-###Code
+### Code
 ```buildoutcfg
     def found(self,start, end, ele):
         for i in range(start, end):
