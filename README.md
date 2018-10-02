@@ -31,4 +31,26 @@ ele=3         | list1[1] = 2
    
  ***Best Case*** : O(1)  
  ***Average Case*** : O(N/2)  
- ***Worst Case*** : O(N)
+ ***Worst Case*** : O(N)  
+   
+     
+     
+## Binary Search  
+Binary Search works on sorted arrays. The sorted array is divided into half and based on value of search element the values is searched in one of the two halves.  
+ Mind point is calulated m = len(data)/2  
+ >if data[m] > ele  
+ >if data[m] < ele  
+ >if data[m] == ele  
+ 
+###Code
+```buildoutcfg
+    def found(self,start, end, ele):
+        for i in range(start, end):
+            if ele == self.data[i]:
+                return i
+```  
+ ### Time Complexity  
+   
+ ***Best Case*** : O(1)  
+ ***Average Case*** : O(log n)  
+ ***Worst Case*** : O(log n)
