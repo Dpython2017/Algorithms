@@ -5,6 +5,12 @@ the list is calculated. If the value of search element is less than the mid-poin
 index [0:mid-pint] if the search element is greater than the mid in that case search is done within[m:len(data)]
 """
 class BinarySearch(object):
+    """
+    :param data: An itearble list for searching the values in
+            ele: The search element
+
+    :return : Position of the element is found
+    """
     def __init__(self,data):
         if len(data) > 0:
             if sorted(data) == data:
