@@ -4,7 +4,7 @@ Implementing Linear Search: In this search the search element is checked
 with each element of the list.
 
 """
-class LinearSearch:
+class LinearSearch(object):
     """
     :param data: An itearble list for searching the values in
             ele: The search element
@@ -19,8 +19,9 @@ class LinearSearch:
 
     def searchData(self,ele):
         found = [i for i in range(len(data)) if data[i] == ele]
+
         if found:
-            print 'Found at position: {}'.format(found)
+            print 'Found  at position: {}'.format(found)
         else:
             print'Not Found'
 
